@@ -47,7 +47,10 @@ def get_weather(city: str, api_key: str) -> Dict[str, Any]:
 
     data = response.json()
 
+    
     # OpenWeatherMap error response handling
+
+    
     if data.get("cod") != 200:
         message = data.get("message", "Unknown error")
         raise WeatherAPIError(f"API error: {message}")
