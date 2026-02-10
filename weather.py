@@ -5,7 +5,7 @@ from requests.exceptions import RequestException, Timeout
 
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
-DEFAULT_TIMEOUT = 10  # in seconds
+DEFAULT_TIMEOUT = 10  
 
 
 class WeatherAPIError(Exception):
