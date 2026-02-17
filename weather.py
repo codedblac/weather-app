@@ -4,6 +4,7 @@ from typing import Dict, Any
 from requests.exceptions import RequestException, Timeout
 
 
+
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 DEFAULT_TIMEOUT = 10  
 
