@@ -49,7 +49,6 @@ def get_weather(city: str, api_key: str) -> Dict[str, Any]:
 
     
 
-
     
     if data.get("cod") != 200:
         message = data.get("message", "Unknown error")
