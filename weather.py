@@ -47,7 +47,7 @@ def get_weather(city: str, api_key: str) -> Dict[str, Any]:
 
     data = response.json()
 
-    
+
 
     
     if data.get("cod") != 200:
