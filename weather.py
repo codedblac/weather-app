@@ -7,6 +7,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 DEFAULT_TIMEOUT = 10  
 
 
+
 class WeatherAPIError(Exception):
     """Custom exception for weather API related errors."""
     pass
